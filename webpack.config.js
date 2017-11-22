@@ -9,6 +9,8 @@ module.exports = {
         filename: 'build.js'
     },
     devServer: {
+        historyApiFallback: true, //不跳转
+        hot: true,
         inline: true,//实时刷新
         port:8081
     },
